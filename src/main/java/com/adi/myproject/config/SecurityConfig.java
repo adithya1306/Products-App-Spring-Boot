@@ -62,11 +62,11 @@ public class SecurityConfig {
     public SecurityFilterChain webSecurity(HttpSecurity http) throws Exception {
         http.securityMatcher("/**");
         http
-                .csrf(csrf -> csrf.disable()) // Optional, depending on your UI needs
+                .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(req -> req
                         .anyRequest().authenticated()
                 )
-                .formLogin(Customizer.withDefaults()) // Optional if only using OAuth2
+                .formLogin(Customizer.withDefaults())
                 .oauth2Login(oauth2 -> oauth2
                         .defaultSuccessUrl("http://localhost:8080/api/product", true)
                 );
