@@ -8,6 +8,9 @@
 *.ipr
 *.iws
 
+*.xml
+*.gz
+
 # Ignore logs
 *.log
 
