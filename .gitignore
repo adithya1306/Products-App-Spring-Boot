@@ -17,7 +17,7 @@ Thumbs.db
 
 # Ignore environment-specific config
 src/main/resources/application.properties
-**/src/main/resources/application.properties
+**/src/main/resources/application.properties.template
 
 # Ignore OS-specific files
 ehthumbs.db
