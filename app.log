@@ -546,3 +546,103 @@ Caused by: org.springframework.security.web.UnreachableFilterChainException: A f
 2025-06-07T11:57:58.179+05:30  INFO 6844 --- [myproject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-06-07T11:57:58.181+05:30  INFO 6844 --- [myproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-06-07T11:57:58.184+05:30  INFO 6844 --- [myproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-07T11:58:01.410+05:30  INFO 3760 --- [myproject] [main] com.adi.myproject.MyprojectApplication   : Starting MyprojectApplication using Java 21.0.7 with PID 3760 (E:\Java - Spring - Masterclass\myproject\target\classes started by Adithya Balaji in E:\Java - Spring - Masterclass\myproject)
+2025-06-07T11:58:01.413+05:30  INFO 3760 --- [myproject] [main] com.adi.myproject.MyprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-07T11:58:02.272+05:30  INFO 3760 --- [myproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-07T11:58:02.352+05:30  INFO 3760 --- [myproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2025-06-07T11:58:03.061+05:30  INFO 3760 --- [myproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-07T11:58:03.075+05:30  INFO 3760 --- [myproject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-07T11:58:03.075+05:30  INFO 3760 --- [myproject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-07T11:58:03.127+05:30  INFO 3760 --- [myproject] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-07T11:58:03.128+05:30  INFO 3760 --- [myproject] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1655 ms
+2025-06-07T11:58:03.306+05:30  INFO 3760 --- [myproject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-07T11:58:03.351+05:30  INFO 3760 --- [myproject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-07T11:58:03.389+05:30  INFO 3760 --- [myproject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-07T11:58:03.691+05:30  INFO 3760 --- [myproject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-07T11:58:03.718+05:30  INFO 3760 --- [myproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-07T11:58:03.898+05:30  INFO 3760 --- [myproject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e2c6fd6
+2025-06-07T11:58:03.900+05:30  INFO 3760 --- [myproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-07T11:58:03.975+05:30  INFO 3760 --- [myproject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-07T11:58:04.750+05:30  INFO 3760 --- [myproject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-07T11:58:04.793+05:30  INFO 3760 --- [myproject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-07T11:58:05.190+05:30  INFO 3760 --- [myproject] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-07T11:58:06.046+05:30  INFO 3760 --- [myproject] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-06-07T11:58:06.047+05:30  WARN 3760 --- [myproject] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-06-07T11:58:06.151+05:30  WARN 3760 --- [myproject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-07T11:58:06.780+05:30  INFO 3760 --- [myproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-07T11:58:06.792+05:30  INFO 3760 --- [myproject] [main] com.adi.myproject.MyprojectApplication   : Started MyprojectApplication in 5.966 seconds (process running for 6.364)
+2025-06-07T11:58:13.054+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-07T11:58:13.054+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-07T11:58:13.056+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-06-07T11:58:19.057+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-7] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts called
+2025-06-07T11:58:19.373+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-7] c.a.m.aop.PerformanceMonitorAspect       : getAllProducts method executed in 312ms
+2025-06-07T11:58:19.374+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-7] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts returned
+2025-06-07T11:58:19.375+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-7] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts executed
+2025-06-07T11:58:19.579+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-8] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts called
+2025-06-07T11:58:19.590+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-8] c.a.m.aop.PerformanceMonitorAspect       : getAllProducts method executed in 10ms
+2025-06-07T11:58:19.590+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-8] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts returned
+2025-06-07T11:58:19.590+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-8] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts executed
+2025-06-07T11:59:19.105+05:30  WARN 3760 --- [myproject] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-06-07T11:59:19.160+05:30  WARN 3760 --- [myproject] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-06-07T11:59:22.620+05:30  WARN 3760 --- [myproject] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-06-07T11:59:22.669+05:30  WARN 3760 --- [myproject] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-06-07T11:59:46.466+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-3] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts called
+2025-06-07T11:59:46.474+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-3] c.a.m.aop.PerformanceMonitorAspect       : getAllProducts method executed in 8ms
+2025-06-07T11:59:46.475+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-3] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts returned
+2025-06-07T11:59:46.475+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-3] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts executed
+2025-06-07T11:59:46.514+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-4] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts called
+2025-06-07T11:59:46.521+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-4] c.a.m.aop.PerformanceMonitorAspect       : getAllProducts method executed in 6ms
+2025-06-07T11:59:46.523+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-4] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts returned
+2025-06-07T11:59:46.523+05:30  INFO 3760 --- [myproject] [http-nio-8080-exec-4] com.adi.myproject.aop.LoggingAspect      : Method getAllProducts executed
+2025-06-07T12:26:27.926+05:30  INFO 3760 --- [myproject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-07T12:26:27.938+05:30  INFO 3760 --- [myproject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-07T12:26:27.942+05:30  INFO 3760 --- [myproject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-07T12:26:27.944+05:30  INFO 3760 --- [myproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-07T12:26:27.949+05:30  INFO 3760 --- [myproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-07T12:27:51.536+05:30  INFO 1300 --- [myproject] [main] com.adi.myproject.MyprojectApplication   : Starting MyprojectApplication using Java 21.0.7 with PID 1300 (E:\Java - Spring - Masterclass\myproject\target\classes started by Adithya Balaji in E:\Java - Spring - Masterclass\myproject)
+2025-06-07T12:27:51.540+05:30  INFO 1300 --- [myproject] [main] com.adi.myproject.MyprojectApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-07T12:27:52.769+05:30  INFO 1300 --- [myproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-07T12:27:52.874+05:30  INFO 1300 --- [myproject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2025-06-07T12:27:53.927+05:30  INFO 1300 --- [myproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-07T12:27:53.952+05:30  INFO 1300 --- [myproject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-07T12:27:53.952+05:30  INFO 1300 --- [myproject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-07T12:27:54.046+05:30  INFO 1300 --- [myproject] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-07T12:27:54.047+05:30  INFO 1300 --- [myproject] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2431 ms
+2025-06-07T12:27:54.296+05:30  INFO 1300 --- [myproject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-07T12:27:54.379+05:30  INFO 1300 --- [myproject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-07T12:27:54.434+05:30  INFO 1300 --- [myproject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-07T12:27:54.834+05:30  INFO 1300 --- [myproject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-07T12:27:54.881+05:30  INFO 1300 --- [myproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-07T12:27:55.227+05:30  INFO 1300 --- [myproject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43755e2f
+2025-06-07T12:27:55.230+05:30  INFO 1300 --- [myproject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-07T12:27:55.399+05:30  INFO 1300 --- [myproject] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-07T12:27:56.919+05:30  INFO 1300 --- [myproject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-07T12:27:56.979+05:30  INFO 1300 --- [myproject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-07T12:27:57.655+05:30  INFO 1300 --- [myproject] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-07T12:27:59.728+05:30  INFO 1300 --- [myproject] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-06-07T12:27:59.729+05:30  WARN 1300 --- [myproject] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-06-07T12:28:00.170+05:30  WARN 1300 --- [myproject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-07T12:28:02.277+05:30  INFO 1300 --- [myproject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-07T12:28:02.301+05:30  INFO 1300 --- [myproject] [main] com.adi.myproject.MyprojectApplication   : Started MyprojectApplication in 11.68 seconds (process running for 12.284)
+2025-06-07T12:28:10.017+05:30  INFO 1300 --- [myproject] [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-07T12:28:10.018+05:30  INFO 1300 --- [myproject] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-07T12:28:10.019+05:30  INFO 1300 --- [myproject] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-07T12:28:14.759+05:30  INFO 1300 --- [myproject] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-07T12:28:14.774+05:30  INFO 1300 --- [myproject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-07T12:28:14.779+05:30  INFO 1300 --- [myproject] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-07T12:28:14.783+05:30  INFO 1300 --- [myproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-07T12:28:14.791+05:30  INFO 1300 --- [myproject] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

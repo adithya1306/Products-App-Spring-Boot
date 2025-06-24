@@ -1,0 +1,13 @@
+spring.application.name=inventory-service
+server.port=<PORT-NUMBER-OF-YOUR-CHOICE>
+
+spring.datasource.url=<YOUR-LOCAL-DB-ADDRESS>
+spring.datasource.username=<YOUR-LOCAL-DB-USERNAME>
+spring.datasource.password=<YOUR-LOCAL-DB-PASSWORD>
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+id = <YOUR-CREDENTIALS>
+spring.security.oauth2.client.registration.google.client-secret = <YOUR-CREDENTIALS>
